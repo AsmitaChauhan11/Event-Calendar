@@ -1,0 +1,74 @@
+.event-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.event-modal h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.event-modal button {
+  background: #a34afd;
+  color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin: 5px 10px;
+  font-size: 1rem;
+}
+
+.event-modal button:hover {
+  background: #d192fb;
+  border: 1px solid #ddd;
+}
+
+.event-modal input[type="text"] {
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 8px 12px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.event-modal input[type="text"]:focus {
+  outline: none;
+  background: #fdfdfd;
+}
+
+.event-modal ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.event-modal ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.event-modal ul li span {
+  flex: 1;
+  font-size: 1rem;
+  text-align: left;
+}
