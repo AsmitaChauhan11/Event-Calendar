@@ -2,6 +2,16 @@
 
 Dynamic Event Calendar using React.js
 
+
+
+
+https://github.com/user-attachments/assets/64281d87-68de-41e7-9abc-61111635859b
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
